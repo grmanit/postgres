@@ -1,5 +1,5 @@
-FROM postgres:9.5
+FROM postgres:9.6
 
 RUN apt-get update && \
-    apt-get install -y postgresql-9.5-orafce && \
+    apt-get install -y postgresql-9.6-orafce && \
     rm -rf /var/lib/apt/lists/*
